@@ -9,16 +9,17 @@ The trojai Package contains the required package to run the program. Below are t
 
 setup.py - Script to install trojai module into Python environment
   
-    └───datagen - integration scripts showcasing datagen API functionality
-    └───modelgen - integration scripts showcasing modelgen API functionality
-└───trojai - top level Python module (Package)
+    datagen - integration scripts showcasing datagen API functionality
+    modelgen - integration scripts showcasing modelgen API functionality
+  
+  trojai - top level Python module (Package)
     └───datagen - data generation submodule
     └───modelgen - model generation submodule
     └───test - top level scripts directory
-        └───datagen - contains unittests for the datagen submodule
-        └───modelgen - contains unittests for the modelgen submodule
+         └───datagen - contains unittests for the datagen submodule
+         └───modelgen - contains unittests for the modelgen submodule
 
-#Datagen
+# Datagen
 ### Getting Started
 # Activate the trojai environment 
 # Download the MNIST Dataset to /tmp/mnist/clean/ as the root folder
@@ -26,7 +27,7 @@ setup.py - Script to install trojai module into Python environment
 # Generate the Badnets Dataset and store the output into root folder /tmp/mnist/badnets
 >> python mnist_badnets.py /tmp/mnist/clean/train.csv /tmp/mnist/clean/test.csv --output /tmp/mnist/badnets
 
-#Modelgen
+# Modelgen
 # Activate the trojai environment 
 # Generate MNIST badnets data, and train a trojaned model by training directly on the poisoned dataset
 >> python gen_and_train_mnist.py
