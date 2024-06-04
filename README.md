@@ -43,7 +43,7 @@ setup.py - Script to install trojai module into Python environment
 >>It will also help researchers understand the effects of different dataset configurations and training hyperparameters on the generated trojaned deep learning model
 
 # References:
-https://github.com/trojai
-https://trojai.readthedocs.io/en/latest/
-https://arxiv.org/abs/2003.07233
+https://github.com/trojai, 
+https://trojai.readthedocs.io/en/latest/ ,
+https://arxiv.org/abs/2003.07233 ,
  Karra Kiran and Ashcraft Chace and Fendley Neil ,The TrojAI Software Framework: An OpenSource tool for Embedding Trojans into Deep Learning Models (2020)
