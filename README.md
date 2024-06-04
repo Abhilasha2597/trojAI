@@ -1,4 +1,4 @@
-# trojAI
+# TrojAI
 
 The trojAI is the top-level module
 
