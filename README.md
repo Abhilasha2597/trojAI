@@ -47,4 +47,3 @@ https://github.com/trojai
 https://trojai.readthedocs.io/en/latest/
 https://arxiv.org/abs/2003.07233
  Karra Kiran and Ashcraft Chace and Fendley Neil ,The TrojAI Software Framework: An OpenSource tool for Embedding Trojans into Deep Learning Models (2020)
-![image](https://github.com/Abhilasha2597/trojAI/assets/171642449/68a74b66-a28d-4465-97d7-ef0957058f37)
